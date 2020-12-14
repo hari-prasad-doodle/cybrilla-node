@@ -35,18 +35,18 @@ $ npm start
 ## API Details, content type for all apis application/json
 - To get the products list
 ```js
-GET {{url}}/api/v1/product?limit=10&page=1
+GET http://localhost:2239/api/v1/product?limit=10&page=1
 
 ```
 
 - To get the product information by ID
 ```js
-GET {{url}}/api/v1/product/:productId?limit=10&page=1
+GET http://localhost:2239/api/v1/product/:productId?limit=10&page=1
 ```
 
 - To add the product
 ```js
-POST {{url}}/api/v1/product
+POST http://localhost:2239/api/v1/product
 ```
 {
 "productName":"E",
@@ -57,7 +57,7 @@ POST {{url}}/api/v1/product
 
 - To update the product details
 ```js
-PUT {{url}}/api/v1/product
+PUT http://localhost:2239/api/v1/product
 ```
 {
 "productName":"E",
@@ -66,12 +66,12 @@ PUT {{url}}/api/v1/product
 
 - To get the product discount details
 ```js
-GET {{url}}/api/v1/product/discount
+GET http://localhost:2239/api/v1/product/discount
 ```
 
 - To add the discount
 ```js
-POST {{url}}/api/v1/product/discount
+POST http://localhost:2239/api/v1/product/discount
 ```
 {
     "productId":6,
@@ -82,7 +82,7 @@ POST {{url}}/api/v1/product/discount
 
 - To update or edit the discount
 ```js
-PUT {{url}}/api/v1/product/discount?productId=6
+PUT http://localhost:2239/api/v1/product/discount?productId=6
 ```
 
 {
@@ -92,7 +92,7 @@ PUT {{url}}/api/v1/product/discount?productId=6
 
 - To add item to cart
 ```js
-POST {{url}}/api/v1/cart/item
+POST http://localhost:2239/api/v1/cart/item
 ```
 
 {
@@ -105,7 +105,7 @@ POST {{url}}/api/v1/cart/item
 
 - To get items info for cart
 ```js
-GET {{url}}/api/v1/cart?userId=User4&cartId=1
+GET http://localhost:2239/api/v1/cart?userId=User4&cartId=1
 ```
 
 
