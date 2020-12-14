@@ -1,6 +1,6 @@
 /readme.md
 
-# **cybrilla ecommerce cart and discount**
+# **Ecommerce cart and discount**
 
 
 ## Description
